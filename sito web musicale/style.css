@@ -1,0 +1,242 @@
+/* Reset base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo pagina */
+body {
+    font-family: Arial, sans-serif;
+    background: #0e0d12;
+    color: #e5e0d6;
+}
+
+/* Header */
+header {
+    background: #15141c;
+    color: #cda434;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titolo */
+header h1 {
+    margin-bottom: 15px;
+}
+
+/* Navigazione */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav button {
+    background: #cda434;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav button a {
+    text-decoration: none;
+    color: #0e0d12;
+    font-weight: bold;
+}
+
+nav button:hover {
+    background: #cda434cc;
+}
+
+/* Layout principale */
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Articolo */
+article {
+    flex: 3;
+    background: #15141c;
+    color: #e5e0d6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+article h2 {
+    margin-bottom: 15px;
+    color: #cda434;
+}
+
+article h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #cda434;
+}
+
+/* Liste */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Aside */
+aside {
+    flex: 1;
+    background: #1e1d28;
+    color: #e5e0d6;
+    padding: 15px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    display: block;
+    padding: 10px;
+    background: #cda434;
+    color: #0e0d12;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+aside a:hover {
+    background: #cda434cc;
+    transform: scale(1.05);
+}
+
+/* classifica */
+main .chart-container {
+    background: #15141c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.chart-header {
+    margin-bottom: 20px;
+}
+.chart-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 900px;
+    display: grid;
+    gap: 18px;
+    border-top: 1px solid #2a293a;
+    padding-top: 24px;
+}
+
+.chart-entry {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 18px;
+    align-items: start;
+    padding: 18px;
+    background: #15141c;
+    border-left: 4px solid #cda434;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.chart-rank {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background: #cda434;
+    color: #0e0d12;
+    border-radius: 50%;
+}
+
+.chart-info h3 {
+    margin: 0 0 10px;
+    color: #cda434;
+    font-size: 1.25rem;
+}
+
+.chart-info p {
+    margin: 0 0 12px;
+    color: #e5e0d6;
+    line-height: 1.75;
+    font-size: 0.98rem;
+}
+.chart-container li img {
+    border: 3px solid #cda434;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0e0d12;
+    color: #cda434;
+    margin-top: 20px;
+}
+
+/* rock */
+article h1 {
+    color: #cda434;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+article h2 {
+    color: #cda434;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #cda434;
+    padding-bottom: 8px;
+}
+
+article h3 {
+    color: #cda434;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+article ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+article li {
+    margin-bottom: 8px;
+    padding: 4px 0;
+}
+
+article li img {
+    border: 3px solid #cda434;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 8px;
+}
+
