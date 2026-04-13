@@ -240,15 +240,19 @@ article li img {
     margin-top: 8px;
 }
 /*home*/
-#trend-art{
+.artist {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
-#trend-art li{
+.artist li{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+}
+.artist li img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
