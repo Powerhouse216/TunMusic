@@ -52,14 +52,13 @@ nav button:hover {
     background: #cda434cc;
 }
 
-/* Layout principale */
+
 main {
     display: flex;
     padding: 20px;
     gap: 20px;
 }
 
-/* Articolo */
 article {
     flex: 3;
     background: #15141c;
@@ -91,10 +90,10 @@ aside {
     flex: 1;
     background: #1e1d28;
     color: #e5e0d6;
-    padding: 15px;
     border-radius: 10px;
     height: fit-content;
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    padding:10px;
 }
 
 aside ul {
@@ -104,6 +103,10 @@ aside ul {
 
 aside li {
     margin-bottom: 10px;
+    padding: auto;
+}
+aside h3{
+    padding-bottom: 10px;;
 }
 
 aside a {
@@ -247,10 +250,14 @@ article li img {
     gap: 10px;
 }
 .artist li{
+    padding:10px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+}
+.artist li p{
+    padding-top: 10px;
 }
 .artist li img:hover{
     transform: scale(1.05);
