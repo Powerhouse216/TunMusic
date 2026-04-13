@@ -20,6 +20,13 @@ header {
     text-align: center;
 }
 
+header img {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Titolo */
 header h1 {
     margin-bottom: 15px;
@@ -191,6 +198,14 @@ main .chart-container {
     margin-top: 8px;
 }
 
+/* Logo centrato */
+.center-logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -257,7 +272,7 @@ article li img {
     text-align: center;
 }
 .artist li p{
-    padding-top: 10px;
+    padding-top: 25px;
 }
 .artist li img:hover{
     transform: scale(1.05);
