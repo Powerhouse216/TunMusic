@@ -239,4 +239,16 @@ article li img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 8px;
 }
-
+/*home*/
+#trend-art{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#trend-art li{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
